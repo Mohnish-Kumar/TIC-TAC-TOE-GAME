@@ -33,10 +33,8 @@ def checkWin(xState,zState,player1,player2):
 numberChange={7:0,8:1,9:2,4:3,5:4,6:5,1:6,2:7,3:8}
 
 if __name__=="__main__":
-    # player1=input("Enter Player 1's name : ")
-    # player2=input("Enter Player 2's name : ")
-    player1="Player 1"
-    player2="Player 2"
+    player1=input("Enter Player 1's name : ")
+    player2=input("Enter Player 2's name : ")
     print()
     xState=[0,0,0,0,0,0,0,0,0]
     zState=[0,0,0,0,0,0,0,0,0]
